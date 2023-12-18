@@ -1,0 +1,14 @@
+.card {
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 40px;
+    box-shadow: var(--box-shadow);
+    /* border: 1px solid transparent;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 40px;
+    box-shadow: var(--box-shadow); */
+}
