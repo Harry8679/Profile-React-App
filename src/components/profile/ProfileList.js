@@ -10,10 +10,11 @@ const ProfileList = () => {
       <div>
         <h1>Team Members</h1>
         <div className={styles["profile-container"]}>
-            {profiles.map((profile) => {
+            {profiles.map((profile, index) => {
                 const { img, name, job, company, link } = profile;
                 return(
                 <Profile 
+                    key={index}
                     name={name}
                     job={job}
                     company={company}
